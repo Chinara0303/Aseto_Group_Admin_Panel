@@ -1,0 +1,93 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+i {
+  color: #9ea4aa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h6 {
+  margin: 0;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+:root {
+  --main-color: #1a2232;
+  --active-menu-color: rgb(46 57 78);
+  --input-bg-color:#f9fafb;
+  --border-color: rgb(255 255 255 / 12%);
+  --text-color: #9ea4aa;
+  --transition: all .2s ease-out;
+  --border-radius: 5px;
+  --dropdown-divider-bg:#e2e3e4;
+}
+
+main.edit .card-edit {
+  background-color: white;
+  width: 100%;
+}
+main.edit .card-edit .bi-arrow-left-circle {
+  font-size: 1.25rem;
+}
+main.edit .card-edit .img-area {
+  width: 250px;
+  margin: 30px 0;
+}
+main.edit .card-edit .img-area img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+main.edit .card-edit .check-button i {
+  color: white;
+  font-size: 20px;
+}
+
+main.detail .card-detail {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  border-radius: var(--border-radius);
+  padding: 15px;
+}
+main.detail .card-detail .card-body .bi-arrow-left-circle {
+  font-size: 1.25rem;
+}
+main.detail .card-detail .img-area {
+  width: 300px;
+}
+main.detail .card-detail .img-area img {
+  border-radius: var(--border-radius);
+}
+main.detail .card-detail .content {
+  margin-top: 10px;
+}
+
+main.create .card-create {
+  background-color: white;
+  width: 100%;
+}
+main.create .card-create .bi-arrow-left-circle {
+  font-size: 1.25rem;
+}
+main.create .check-button i {
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=action.css.map */

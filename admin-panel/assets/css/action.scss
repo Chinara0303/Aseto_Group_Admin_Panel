@@ -1,0 +1,65 @@
+@import './reset';
+
+main.edit {
+    .card-edit {
+        background-color: white;
+        width: 100%;
+        .bi-arrow-left-circle{
+            font-size: 1.25rem;
+        }
+        .img-area {
+            width: 250px;
+            margin: 30px 0;
+
+            img {
+                width: 100%;
+                border-radius: var(--border-radius);
+            }
+        }
+
+        .check-button i{
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+main.detail{
+    .card-detail{
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+        border-radius: var(--border-radius);
+        padding: 15px;
+        .card-body{
+            .bi-arrow-left-circle{
+                font-size: 1.25rem;
+            }
+        }
+        .img-area{
+            width: 300px;
+            img{
+                border-radius: var(--border-radius);
+            }
+        }
+        .content{
+            
+            margin-top: 10px;
+        }
+    }
+   
+}
+
+main.create{
+    .card-create{
+        background-color: white;
+        width: 100%;
+        .bi-arrow-left-circle{
+            font-size: 1.25rem;
+        }
+    }
+    .check-button i{
+        color: white;
+        font-size: 20px;
+    }
+}
